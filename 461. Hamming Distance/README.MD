@@ -4,7 +4,7 @@ HAMMING DISTANCE
 
 =====
 
-        // XOR returns no.of bits that are not same at corresponding positions
+        // `XOR` returns no.of bits that are not same at corresponding positions
         // 2- 0010 and 6 - 0110. Both integers differ at positions (left to right) 3. 2 ^ 6 = 0010 ^ 0110 = 0100
         // You may notice the 1 in the result.
         // Now if we could calculate all those 1's from the result above we get the hamming distance
@@ -16,7 +16,7 @@ HAMMING DISTANCE
         //4...0100(4) & 0011(3) becomes zero by then n is incremented by 1 which is our answer
 
 
-...
+```C#
 public class Solution {
     public int HammingDistance(int x, int y) {
         int z=x^y;
@@ -29,4 +29,4 @@ public class Solution {
         return n;
     }
 }
-...
+```
