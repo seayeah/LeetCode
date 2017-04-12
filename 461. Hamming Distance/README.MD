@@ -12,7 +12,7 @@
 //4...0100(4) & 0011(3) becomes zero by then n is incremented by 1 which is our answer
 
 
-
+...
 public class Solution {
     public int HammingDistance(int x, int y) {
         int z=x^y;
@@ -25,3 +25,4 @@ public class Solution {
         return n;
     }
 }
+...
