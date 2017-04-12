@@ -3,6 +3,7 @@ HAMMING DISTANCE
 
 
 =====
+
         // XOR returns no.of bits that are not same at corresponding positions
         // 2- 0010 and 6 - 0110. Both integers differ at positions (left to right) 3. 2 ^ 6 = 0010 ^ 0110 = 0100
         // You may notice the 1 in the result.
